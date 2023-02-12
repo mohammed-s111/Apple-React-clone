@@ -1,0 +1,73 @@
+/* General Styling*/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+
+.fifth-highlight-wrapper .left-side-wrapper .left-side-container {
+  background-image: url("./images/actors.jpg");
+  background-color: #000;
+  padding-top: 35px;
+  margin: 0 0 10px 0;
+  background-size: cover;
+}
+.fifth-highlight-wrapper .right-side-wrapper .right-side-container {
+  background-image: url("./images/watch.jpg");
+  background-color: #fbfbfd;
+  background-position: bottom;
+  padding-top: 35px;
+  margin: 0 0 10px 0;
+  background-size: auto;
+}
+.fifth-highlight-wrapper .description-wrapper {
+  max-width: 450px;
+  margin: 7px auto;
+}
+.watch-more-wrapper a {
+  text-decoration: none;
+  font-size: 0.85em;
+  color: #fff;
+}
+.watch-more-wrapper a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
+.tvshow-logo-wrapper {
+  padding: 340px 0 0px;
+}
+
+@media (min-width: 768px) {
+  .fifth-highlight-wrapper .left-side-wrapper .left-side-container {
+    margin: 5px 5px 5px 10px;
+  }
+  .fifth-highlight-wrapper .right-side-wrapper .right-side-container {
+    margin: 5px 10px 5px 5px;
+  }
+
+
+
+
+
+
+
+  
+}

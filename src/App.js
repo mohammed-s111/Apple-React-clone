@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import "bootstrap/dist/css/bootstrap.css";
+
+import Header from "./components/Header/Header.jsx";
+import FooterWrapper from "./components/Footer/FooterWrapper";
+import MyRoutes from "./components/MyRoutes/MyRoutes.js";
+
+
+
+// import Ipad from "./pages/Ipad.js";
+// import Mac from "./pages/Mac.js";
+// import Iphone from "./pages/Iphone.js";
+// import FourO4 from "./pages/FourO4.js";
+
+// import HomePage from "./components/MyRoutes/HomePage";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   
+    
+    <div>
+      <Header />
+
+  
+          <MyRoutes /> 
+
+      <FooterWrapper />
     </div>
+    
+   
   );
 }
 
