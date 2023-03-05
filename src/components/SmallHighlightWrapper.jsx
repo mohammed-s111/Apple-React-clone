@@ -2,8 +2,10 @@ import React from "react";
 
 export default function SmallHighlightWrapper(props) {
   const {
+    
     titleClass,
     title,
+    subhead,
     descriptionClass,
     description,
     priceClass,
@@ -11,7 +13,9 @@ export default function SmallHighlightWrapper(props) {
   } = props;
   return (
     <>
-      <div className={`title-wrapper ${titleClass} `}>{title} </div>
+    
+      {title ? <div className={`title-wrapper ${titleClass} `}>{title} </div> : null}
+      {subhead ? <h3 className="subhead">{subhead}</h3> : null}
 
       {description ? (
         <div className={`description-wrapper ${descriptionClass} `}>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Alert from "../HomePage/Alert/Alert";
+
 import FirstHighlightWrapper from "../HomePage/FirstHighlightWrapper/FirstHighlightWrapper";
 
 import SecondHighlightWrapper from "../HomePage/SecondHighlightWrapper/SecondHighlightWrapper";
@@ -17,7 +17,7 @@ import YoutubeVideos from "../ApiIntegration/you_tube_videos/YoutubeVideos";
 export default function HomePage() {
   return (
     <>
-      <Alert />
+    
       <FirstHighlightWrapper />
       <SecondHighlightWrapper />
       <ThirdHighlightWrapper />

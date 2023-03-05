@@ -89,6 +89,13 @@
     border-bottom: 1px solid #d2d2d7;
   }
 }
+.built-by{
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  padding-bottom: 45px;
+  
+}
 
 
 

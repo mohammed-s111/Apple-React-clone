@@ -13,13 +13,9 @@ export default function SecondHighlightWrapper () {
       <section className="second-highlight-wrapper">
         <div className="container">
           <HighlightWrapper
-            titleClass="bold black"
-            alert="New"
-            title="MacBook Air"
-            descriptionClass="black"
-            description="Twice the speed. Twice the storage."
-            priceClass="grey"
-            price="From $999."
+            titleClass="headline "
+            title="iPhone 14"
+            subhead="Big and bigger"
           />
         </div>
         <div className="links-wrapper">

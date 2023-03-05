@@ -1,21 +1,32 @@
 
 .second-highlight-wrapper {
-	background-image: url("./images/macbookair-new-sm.jpg");
+	background-image: url("./images/hero_iphone14__fjmsqstr1ceq_small.jpg.jpg");
 	height: 580px;
 	background-position: bottom;
 	background-repeat: no-repeat;
-  background-size: initial;
+  background-size: auto;
   background-color: #fbfbfd;
 	text-align: center;
 	padding: 65px 20px;
-	color: #fff;
+	color:black;
 	margin-bottom: 10px;	
 }
 
+.second-highlight-wrapper .headline {
+    font-size: 32px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+   
+	
+}
 
-.second-highlight-wrapper .description-wrapper {
-	font-size: 26px;
-	padding: 10px 0;
+.second-highlight-wrapper .subhead {
+    font-size: 19px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    margin-top: 6px;
 }
 
 
@@ -23,13 +34,25 @@
 
 	
 	.second-highlight-wrapper {
-		min-height: 692px;
-		background-image: url("./images/macbookair-new.jpg");
-	}
-	.new-alert {
-		color: #BF4801;
-		font-size: 18px;
+		min-height: 600px;
+		background-image: url("./images/download.jpg");
 	}
 	
+	.second-highlight-wrapper .headline {
+    font-size: 52px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+   
+	
+}
+
+.second-highlight-wrapper .subhead {
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    margin-top: 6px;
+}
 
 }

@@ -1,32 +1,44 @@
-
 .first-highlight-wrapper {
-  background-image: url("./images/ipodPronew-sm.jpg");
+  background-image: url("./images/hero_iphone14pro__e5xbgo5ffhg2_small.jpg.jpg");
   height: 580px;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: initial;
-  background-color: #fbfbfd;
   text-align: center;
   padding: 65px 20px;
   color: #fff;
   margin-bottom: 10px;
 }
-.ipod-caption {
-  color: #86868b;
-  font-size: 12px;
-  line-height: 1.33337;
+.first-highlight-wrapper .headline {
+  font-size: 32px;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+.first-highlight-wrapper .subhead {
+  font-size: 19px;
+  line-height: 1.10722;
   font-weight: 400;
-  letter-spacing: -0.01em;
-  padding-top: 310px;
+  letter-spacing: 0.004em;
+  margin-top: 6px;
 }
 
 @media (min-width: 768px) {
-  
   .first-highlight-wrapper {
-    background-image: url("./images/ipodPronew.jpg");
+    background-image: url("./images/hero_iphone14pro__e5xbgo5ffhg2_largetall.jpg.jpg");
     min-height: 692px;
   }
-  .ipod-caption {
-    padding-top: 415px;
+  .first-highlight-wrapper .headline {
+    font-size: 42px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+  }
+  .first-highlight-wrapper .subhead {
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: 0.004em;
+    margin-top: 6px;
   }
 }

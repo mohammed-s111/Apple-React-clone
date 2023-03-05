@@ -1,34 +1,4 @@
-/* General Styling*/
-body {
-  font-family: "Montserrat", sans-serif;
-}
-a {
-  color: #06c;
-}
-img {
-  max-width: 100%;
-}
-.white {
-  color: #fff;
-}
-.black {
-  color: #1d1d1f;
-}
-.grey {
-  color: #86868b;
-}
-.top-50 {
-  margin-top: 50px;
-}
-
 .fifth-highlight-wrapper .left-side-wrapper .left-side-container {
-  background-image: url("./images/actors.jpg");
-  background-color: #000;
-  padding-top: 35px;
-  margin: 0 0 10px 0;
-  background-size: cover;
-}
-.fifth-highlight-wrapper .right-side-wrapper .right-side-container {
   background-image: url("./images/watch.jpg");
   background-color: #fbfbfd;
   background-position: bottom;
@@ -36,23 +6,37 @@ img {
   margin: 0 0 10px 0;
   background-size: auto;
 }
+.fifth-highlight-wrapper .headline {
+  font-size: 32px;
+  line-height: 1.125;
+  font-weight: 600;
+  letter-spacing: 0.002em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+.fifth-highlight-wrapper .subhead {
+  max-width: 196px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 19px;
+  line-height: 1.21053;
+  font-weight: 400;
+  letter-spacing: 0.012em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.fifth-highlight-wrapper .right-side-wrapper .right-side-container {
+  background-image: url("./images/promo_mbp__ek7p477bkp6q_small.jpg.jpg");
+  color: white;
+  padding-top: 35px;
+  margin: 0 0 10px 0;
+  background-size: auto;
+}
 .fifth-highlight-wrapper .description-wrapper {
   max-width: 450px;
   margin: 7px auto;
-}
-.watch-more-wrapper a {
-  text-decoration: none;
-  font-size: 0.85em;
-  color: #fff;
-}
-.watch-more-wrapper a:after {
-  font-family: "FontAwesome";
-  font-weight: 900;
-  content: "\f144";
-  padding-left: 15px;
-}
-.tvshow-logo-wrapper {
-  padding: 340px 0 0px;
+  font-weight: 600;
 }
 
 @media (min-width: 768px) {
@@ -62,12 +46,23 @@ img {
   .fifth-highlight-wrapper .right-side-wrapper .right-side-container {
     margin: 5px 10px 5px 5px;
   }
-
-
-
-
-
-
-
-  
+  .fifth-highlight-wrapper .headline {
+    font-size: 40px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: 0.002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+      "Arial", sans-serif;
+  }
+  .fifth-highlight-wrapper .right-side-container .subhead {
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: 0.012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+      "Arial", sans-serif;
+  }
 }

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-
 export default function FromDatabase() {
   const [database, setDatabase] = useState([]);
   const { productID } = useParams;
@@ -16,15 +15,15 @@ export default function FromDatabase() {
         const products = jsonData.products;
         // const {products} = jsonData
 
-        
         const singleProduct = products.filter(
           (products) => products.product_url === productID
-        )
+        );
 
         setDatabase(singleProduct);
 
         setDatabase(products);
-      }).catch(()=> console.log('Error: unable to fetch'))
+      })
+      .catch(() => console.log("Error: unable to fetch"));
   }, [productID]);
   //   console.log(database);
 

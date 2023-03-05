@@ -5,6 +5,7 @@ export default function HighlightWrapper(props) {
     alert,
     title,
     titleClass,
+    subhead,
     description,
     descriptionClass,
     price,
@@ -18,8 +19,9 @@ export default function HighlightWrapper(props) {
       <div className={`title-wrapper ${titleClass ? titleClass : ""} `}>
         {title}{" "}
       </div>
+      <h3 className="subhead">{subhead}</h3>
 
-      {description && (
+      {description ? (
         <div
           className={`description-wrapper ${
             descriptionClass ? descriptionClass : ""
@@ -28,7 +30,7 @@ export default function HighlightWrapper(props) {
           {" "}
           {description}
         </div>
-      )}
+      ) : null}
 
       {price ? (
         <div className={`price-wrapper ${priceClass ? priceClass : ""}`}>

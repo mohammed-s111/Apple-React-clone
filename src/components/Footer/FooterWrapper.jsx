@@ -114,6 +114,7 @@ function FooterWrapper () {
                 <div className="footer-country-name">United States</div>
               </div>
             </div>
+            <div className="built-by">Built by: Mohammed Shemsu</div>
           </div>
         </footer>
       </div>

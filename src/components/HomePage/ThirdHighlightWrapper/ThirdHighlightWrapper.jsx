@@ -13,10 +13,9 @@ export default function ThirdHighlightWrapper () {
    <section className="third-highlight-wrapper">
      <div className="container">
        <HighlightWrapper
-         titleClass="bold"
-         title="iPhone 11 Pro"
-         description="Pro cameras. Pro display. Pro performance."
-         price="From $24.95/mo. or $599 with trade‑in."
+         titleClass="headline"
+         title="Creativity and community. Woven together."
+         subhead="Explore the new Black Unity watch band and matching face."
        />
        <div className="links-wrapper">
          <ul>

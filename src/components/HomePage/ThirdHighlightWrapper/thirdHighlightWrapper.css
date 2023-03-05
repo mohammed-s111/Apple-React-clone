@@ -1,38 +1,45 @@
-/* General Styling*/
-body {
-  font-family: "Montserrat", sans-serif;
-}
-a {
-  color: #06c;
-}
-img {
-  max-width: 100%;
-}
-.white {
-  color: #fff;
-}
-.black {
-  color: #1d1d1f;
-}
-.grey {
-  color: #86868b;
-}
-.top-50 {
-  margin-top: 50px;
-}
+
 
 .third-highlight-wrapper {
-  background-image: url("./images/iphone11-pro-bg.jpg");
-  height: 580px;
-  background-position: center;
+  background-image: url("./images/bhm_hero__cbs0egyn86oi_large.jpg.jpg");
+  height: 550px;  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   text-align: center;
-  padding: 65px 20px;
+  padding: 50px 20px;
   color: #fff;
 }
+.third-highlight-wrapper .headline {
+  max-width: 250px;
+  font-size: 28px;
+  line-height: 1.08349;
+  font-weight: 600;
+  letter-spacing: -0.002em;
+  margin-left: auto;
+  margin-right: auto;
 
-.third-highlight-wrapper .description-wrapper {
-	font-size: 26px;
-	padding: 10px 0;
+}
+
+.third-highlight-wrapper .subhead {
+  font-size: 18px;
+  line-height: 1.10722;
+  font-weight: 400;
+  letter-spacing: 0.004em; 
+  margin-top: 10px;
+
+}
+@media (min-width: 768px){
+.third-highlight-wrapper .headline {
+  max-width: 100%;
+  font-size: 42px;
+ 
+
+}
+.third-highlight-wrapper .subhead {
+  max-width: 100%;
+  font-size: 28px;
+ 
+
+}
+
 }

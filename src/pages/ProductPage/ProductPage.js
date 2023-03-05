@@ -6,7 +6,7 @@ export default function ProductPage() {
   const [product, setProduct] = useState([]);
   //  console.log(useParams)
   const { productID } = useParams();
-console.log(productID)
+// console.log(productID)
   useEffect(() => {
     fetch(
        `http://127.0.0.1:1234/products`
@@ -16,7 +16,7 @@ console.log(productID)
       .then((data) => {
         const productList = data.products;
 
-         console.log(productList);
+        //  console.log(productList);
 
         const singleProduct = productList.filter(
           (product) => product.iphone_id === productID
